@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    overflow-x: hidden;
+    width: 99vw;
+  }
+
+  /* Base Code */
+
+#style-7::-webkit-scrollbar-track
+{
+	background-color: #f5f5f500;
+	border-radius: 10px;
+}
+
+#style-7::-webkit-scrollbar
+{
+	width: 14px;
+	background-color: #F5F5F5;
+}
+
+#style-7::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+    border: 3px solid white;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(179, 156, 156)),
+									   color-stop(0.72, rgb(99, 99, 99)),
+									   color-stop(0.86, rgb(0, 0, 0)));
+}
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(172, 172, 172);
+  }
+
+  .flex {
+    display: flex;
+  }
+  
+  
+  .nav {
+    background: #ffffff;
+    width: inherit;
+    height: 60px; /* set same as height & line-height below */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+  }
+  
+  .nav li {
+    display: inline-block;
+    list-style: none;
+    height: 60px; /* should be the same as line-height */
+    line-height: 60px; /* should be the same as height */
+    padding: 0 20px; /* "0" sets top and bottom padding to none */
+    transition: .3s all ease-in-out;
+  }
+  
+  
+  .nav li a {
+      color: rgb(0, 0, 0);
+    transition: .3s all ease-in-out;
+    font-weight: bold;
+  }
+  .nav li a:hover {
+    color: rgb(190, 190, 190);
+  }
+  
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* header area */
+
+  .container.header {
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.header .text-header {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container.satu {
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.container.satu .satu-cont {
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    padding: 0px;
+    /* margin: 160px; */
+}
+
+
+  .container.dua {
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+.container.dua .best-card {
+    margin: 0 20px;
+}
+
+.best-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 400px;
+    
+}
+
+.container.tiga {
+  /* justify-content: center; */
+  flex-direction: column;
+  width: 100%;
+  
+
+  
+}
+    .container.tiga .best-card {
+        margin: 0 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aqua;
+        width: 100%;
+        height: 511px;
+    }
+
+    .container.empat {
+        /* justify-content: center; */
+        flex-direction: column;
+        width: 100%;
+  
+
+      }
+
+      .container.empat .card-varian img {
+        margin: 10px 30px;
+      }
+
+      .container.lima {
+        /* justify-content: center; */
+        flex-direction: column;
+        width: 100%;
+  
+
+      }
+
+      .container.lima .best-card {
+        width: 250px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+.btn{
+  background-color: #ECC9EE;
+  border-radius: 8px;
+  color: #0A4D68;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
